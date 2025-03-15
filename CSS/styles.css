@@ -1,0 +1,143 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul, ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    color: #333;
+    font-weight: 600;
+}
+
+main {
+    min-height: 80vh;
+    padding: 2rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Sections */
+section {
+    margin-bottom: 3rem;
+}
+
+#hero {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Projects */
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.project h2 {
+    color: #0066cc;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+}
+
+.project a:hover {
+    background-color: #004c99;
+    text-decoration: none;
+}
