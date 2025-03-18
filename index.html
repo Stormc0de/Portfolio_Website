@@ -3,8 +3,10 @@
     <head>
         <!-- Meta information -->
          <meta charset="UTF-8">
-         <meta name="viewport" content="width-device-width, intitial-scale=1.0">
-         <title>Gianny Carralero</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Gianny D Carralero</title>
+         <!-- Meta description for SEO -->
+          <meta name="description" content="Portfolio website showcasing the work of Gianny D Carralero">
          <!-- Link to CSS file -->
           <link rel="stylesheet" href="css/styles.css">
     </head>
@@ -12,9 +14,10 @@
         <!-- Header/Navigation section -->
         <header>
             <div class="container">
+                <div class="logo">GDC</div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -25,24 +28,49 @@
 
         <!-- Main content area -->
         <main>
-            <div class="container">
-                <!-- Hero section -->
-                <section id="#hero">
+            <!-- Hero section -->
+            <section id="hero">
+                <div class="container">
                     <h1>Gianny Carralero</h1>
-                    <p>Information Technology Student | Aspiring Developer</p>
-                </section>
+                    <p class="hero-subtitle">Information Technology Student | Aspiring Developer</p>
+                    <p class="hero-description">I like to build modern, responsive websites with a focus on clean code and excellent user experience.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn">View my Work</a>
+                        <a href="about.html" class="btn btn-secondary">Learn About Me</a>
+                    </div>
+                </div>
+            </section>
 
-                <!-- Featured projects section -->
-                <section id="#projects">
-                    <h2>Projects</h2>
-                    <!-- Project cards will go here -->
-                </section>
-            </div>
+            <!-- Featured projects section -->
+            <section id="#projects">
+                <div class="container">
+                    <h2> Featured Projects</h2>
+                    <div class="projects-grid">
+                        <!-- Project 1 -->
+                        <article class="project">
+                            <div class="project-image">
+                                <!-- Eventually replace with an actual project image -->
+                                 <div style="width: 100%; height: 100%; background-color: #e5e7eb;"></div>
+                            </div>
+                            <div class="project-content">
+                                <h2>Personal Portfolio Website</h2>
+                                <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="view-all">
+                        <a href="projects.html" class="btn">View All Projects</a>
+                    </div>
+                </div>
+            </section>
         </main>
 
-
-
-            <!-- Footer section -->
+        <!-- Footer section -->
         <footer id="#contact">
             <div class="container">
                 <h2>Get in Touch</h2>
@@ -54,6 +82,6 @@
 
 
         <!-- Link to your JavaScript file -->
-        <script src="main.js"></script>
+        <script src="JS/main.js"></script>
     </body>
 </html>

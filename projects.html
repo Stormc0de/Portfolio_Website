@@ -2,18 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, intitial-scale=1.0">
-        <title>About Me - Your Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Projects</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header>
             <div class="container">
+                <div class="logo">GDC</div>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="projects.html" class="active">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -21,24 +22,57 @@
         </header>
 
         <main>
-            <div class="container">
-                <section id="projects">
+            <section id="projects">
+                <div class="container">
                     <h1>My Projects</h1>
+                    <p>Here's a selection of my recent work. Each project was an opportunity to learn and grow as a developer.</p>
 
-                    <article class="project">
-                        <h2>Project Name 1</h2>
-                        <p>Description of your first project...</p>
-                        <p>Technologies used: HTML, CSS, JavaScript</p>
-                        <a href="#">View Project</a>
-                    </article>
+                    <div class="projects-grid">
+                        <article class="project">
+                            <div class="project-image">
+                                <!-- Eventually replace with an actual project image -->
+                                <div style="width: 100%; height: 100%; background-color: #e5e7eb;"></div>
+                            </div>
+                            <div class="project-content">
+                                <h2>Personal Portfolio Website</h2>
+                                <p>A responsive portfolio website built with HTML, CSS, and JavaScript</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn">Live Demo</a>
+                                    <a href="#" class="btn btn-secondary">View Code</a>
+                                </div>
+                            </div>
+                        </article>
 
-                    <article>
-                        <h2>Project Name 2</h2>
-                        <p>Description of your second project...</p>
-                        <p>Technologies used: [List technologies]</p>
-                        <a href="#">View Project</a>
-                    </article>
-                </section>
+                        <article class="project">
+                            <div class="project-image">
+                                <!-- Eventually replace with an actual project image -->
+                                <div style="width: 100%; height: 100%; background-color: #e5e7eb;"></div>
+                            </div>
+                            <div class="project-content">
+                                <h2>Weather Dashboard</h2>
+                                <p>An interactive weather application that fetches and displays current weather data and forecasts using a public API.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">API</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn">Live Demo</a>
+                                    <a href="#" class="btn btn-secondary">View Code</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Additional Project Cards, follow the same structure -->
+                    </div>
+                </div>
+            </section>
             </div>
         </main>
 
